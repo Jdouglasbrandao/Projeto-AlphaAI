@@ -1,0 +1,189 @@
+/* ----------Developed by JDouglasbrandao------------ */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+/* Developed by JDouglasbrandao */
+.card {
+    margin: 70px;
+    border-radius: 16px;
+    box-shadow: rgba(1, 9, 158, 0.35) 0px 15px 35px;
+    cursor: pointer;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+}
+
+.card:hover {
+    background-image: linear-gradient(#2408f6, #030167);
+}
+
+.card .img-A {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    background-image: url('./imagens/JDouglasbrandao.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card .img-B {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    background-image: url('./imagens/avatar.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card .img-C {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    background-image: url('./imagens/avatar.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+
+.card .img-D {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    background-image: url('./imagens/avatar.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card .img-E {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    background-image: url('./imagens/avatar.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card .img-F {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    background-image: url('./imagens/avatar.png');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+
+/* Developed by JDouglasbrandao */
+.card .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    transition: all .20s;
+}
+
+.card:hover .img {
+    width: 530px;
+    opacity: 1;
+}
+
+.card:hover .img span {
+    font-size: 28px;
+}
+
+.card .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card:hover .content {
+    height: 400px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card .content p {
+    margin: 0;
+}
+
+.card .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    text-align: justify;
+    opacity: .8;
+    margin-top: 8px;
+}
+/* Developed by JDouglasbrandao */
+.card .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card:hover .arrow {
+    transform: rotate(0);
+}
+
+.card .arrow span {
+    font-size: 24px;
+}
+/* ----------Developed by JDouglasbrandao------------ */

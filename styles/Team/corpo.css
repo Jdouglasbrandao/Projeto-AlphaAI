@@ -1,0 +1,47 @@
+/* ----------Developed by JDouglasbrandao------------ */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+    }
+    
+    :root{
+        --bg-color: #222327;
+        --text-color: #fff;
+        --main-color: #2408f6;
+    }
+    
+    body{
+        min-height: 100vh;
+        background: var(--bg-color);
+        color: var(--text-color);
+    }
+
+      main{
+    flex:1;
+    display: block;
+    background-color: var(--bg-color);
+    
+    }
+
+    /* Developed by JDouglasbrandao */
+main .container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-top: 50px;
+    
+}
+
+@media (max-width: 1090px ){
+    .conteudo{
+        flex-direction:column;
+    }
+}
+
+
+/* ----------Developed by JDouglasbrandao------------ */
