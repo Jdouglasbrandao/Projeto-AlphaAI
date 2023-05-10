@@ -5,4 +5,4 @@ O site AlphaAI é um exemplo de algumas das minhas habilidades de desenvolviment
 atraente e fácil de usar. O site foi projetado com um visual moderno e sofisticado, que transmite a ideia de tecnologia avançada e soluções inteligentes. No site tem informações
 sobre a equipe, seção de blog, onde você pode compartilhar insights sobre as tendências mais recentes em inteligência artificial e tecnologia.
 
-Link do site: https://jdouglasbrandao.github.io/Projeto-AlphaAI/index.html
+https://jdouglasbrandao.github.io/Projeto-AlphaAI/index.html
