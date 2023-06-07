@@ -37,11 +37,7 @@ main .container{
     
 }
 
-@media (max-width: 1090px ){
-    .conteudo{
-        flex-direction:column;
-    }
-}
+
 
 
 /* ----------Developed by JDouglasbrandao------------ */

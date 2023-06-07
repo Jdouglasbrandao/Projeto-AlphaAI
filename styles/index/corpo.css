@@ -104,15 +104,15 @@
   
   /* Developed by JDouglasbrandao */
   section.module.parallax-1{
-    background-image: url("./Imagens/imagem1.webp");
+    background-image: url("./Imagens/JDouglasbrandao-fundoA.png");
   }
   
   section.module.parallax-2{
-    background-image: url("./Imagens/imagem\ 8.webp");
+    background-image: url("./Imagens/Jdouglasbrandao_wallpaper_de_inteligencia_artificial_e_b089f80c-19b4-43a4-b8dd-35780c5c07b5.png");
   }
   
   section.module.parallax-3{
-    background-image: url("./Imagens/futuro.jpg");
+    background-image: url("./Imagens/Jdouglasbrandao_wallpaper_de_inteligencia_artificial_e__024c11c9-2d78-4d94-a0cb-5c721c901faa.png");
   }
   
   section.module.parallax h1{
@@ -145,10 +145,11 @@
   .justicado1{
     text-align: justify;
     font-size: 16px;
-    font-weight:normal ;
+    font-weight:normal;
+    text-indent:60px;
   }
 
-  .h2justicado{
+  .h2 .justicado{
     text-align: left;
     
   }
